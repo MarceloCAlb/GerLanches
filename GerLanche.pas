@@ -467,6 +467,9 @@ begin
               exit;
             end;
 
+            if lanche.Contains('XSalada') and Ingr.Contains('Batata') then
+              Ingr := Ingr +',Refrigerante';
+
             //
             if Totpreco >= 50 then
             begin
